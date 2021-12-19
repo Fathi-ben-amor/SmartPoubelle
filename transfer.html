@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transfer</title>
+    <link rel="stylesheet" href="style.css">       
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>      
+</head>
+<body onload=generercaptcha()>
+    <header>
+        <div class="main">
+            <div class="title">
+                <h1>Smart Poubelle</h1>     
+            </div>
+        </div>
+        <div class="bordertransfer"> 
+                   
+        <div id="sign-in">
+            <form action="transfer.html" method="POST" name="f" onsubmit="return verif()">
+                <label >Hello Foulen</label>         
+                <h3>Your totality of the points :  ###                             
+                </h3>
+                <p>Thanks for using Smart-Poubelle by participating in our project, you made your street clean and at the same time benefited yourself.</p>
+                <h3>If you want to transferring your points :</h3>
+                <p  classe="n">Enter your phone number please :
+                    <div class="input-group">  
+                        <div class="bord_trans" >
+                            <i class="fa fa-phone"></i>
+                        </div> 
+                <input type="text" name="number"  class="text-input" />
+                </div>
+                </p>
+                <h4>Transferring to :
+                <select class="text-input">
+                    <option>choice:</option>
+                    <option>Phone refill</option>
+                    <option>Mobile data</option>
+                </select></h4>
+              <button type="submit" class="primary-btn">Send</button>
+            </form>
+        </div>
+        <div class="borderlogin3">
+            <i class="fas fa-book-reader"></i>
+        </div>
+        
+        </div>
+  </header>
+    <div class="copyright">
+        <P>Copyright &copy; 2019, Smart_Poubelle All Right Reserved</P>
+        <a href="#">terms of use </a> | <a href="#">Privacy Policy</a>
+    </div>
+    <div class="borderrecycle">
+        <i class="fa fa-recycle"></i>
+    </div> 
+</body>
+</html>

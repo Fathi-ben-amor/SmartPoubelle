@@ -1,0 +1,288 @@
+header{
+    background-image: url(bg1.jpg);
+    height: 100vh;
+	background-position: center;
+	background-size: cover;
+   
+    margin:0 ; 
+    padding:0  ;
+}
+.main{
+	margin: auto;
+	max-width: 1200px;
+}
+.title{
+	position: absolute;
+    top: 15%;
+	left: 69%;	
+}
+.title h1 {
+	color: rgb(89, 124, 153);
+	font-size: 80px;
+}
+.border{
+    border: solid rgb(89, 124, 153) 1px;
+    position: absolute;
+    border-radius: 15px;
+    background: rgba(21, 159, 214, 0.534);
+    margin-top: 23%;
+    margin-left: 13%;
+    margin-right: 45%;
+    padding: 1%;  
+}
+.border p{
+    font-size: 20px;
+    color: rgb(36, 35, 35);
+}
+.border2{
+    border: solid rgb(89, 124, 153) 1px;
+    position: absolute;
+    border-radius: 15px;
+    background: rgba(71, 160, 196, 0.534);
+    margin-top: 23%;
+    margin-left: 13%;
+    margin-right: 45%;
+    padding: 1%;  
+}
+.border3{
+    border: solid rgb(71, 161, 196) 1px;
+    position: absolute;
+    border-radius: 15px;
+    background: rgba(71, 161, 196, 0.774);
+    margin-top: 37.5%;
+    margin-left: 50%;
+    margin-right: 10%;
+    padding: 1%;  
+}
+.border3 a{
+    text-decoration: none ;
+    font-size: 23px;
+    color: rgba(21, 89, 214, 0.979);
+    font-weight: bold;
+}
+.border3 a:hover{
+    color: rgb(13, 53, 126);
+}
+.borderlogin{
+    border: solid rgb(89, 124, 153) 1px;
+    position: absolute;
+    border-radius: 15px;
+    background: rgba(21, 159, 214, 0.534);
+    margin-top: 19%;
+    margin-left: 21%;
+    margin-right: 45%;
+    padding-left: 3%;  
+    padding-right: 3%;
+    padding-top: 40px;
+    display:flex ; 
+    justify-content: center; 
+}
+.borderlogin2{
+    border: solid rgb(89, 124, 153) 3px;
+    position: absolute;
+    border-radius: 100%;
+    background: rgb(13, 51, 83);
+    margin-top: -20%;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 4%;
+    display:flex ; 
+    justify-content: center; 
+    color: white;
+}
+#sign-in {
+   
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+}
+#sign-in label {
+    font-size: 1.5rem;
+    line-height:2rem ; 
+    font-weight: bold;
+    color:rgb(13, 52, 83) ;
+    padding-left: 12%;
+}
+.input-group {
+    position: relative;  
+  }
+#sign-in form {
+    width: 80%;
+    padding-bottom: 2rem;
+    text-align:center ;
+   
+}
+#sign-in .bord{
+    border: solid rgb(89, 124, 153) 1px;
+    position: absolute;
+    background: #b2e4fc93;
+    margin-left: -15%;
+    margin-top: 9.5%;
+    height: 32%;
+    width: 5%;
+    border:1px solid rgb(13, 52, 83) ;
+    line-height:1rem ; 
+    padding: 0.5rem 1rem ;
+    color:rgb(13, 52, 83) ; 
+}
+#sign-in p{
+    text-align: left;
+    color: rgb(23, 98, 160);
+    font-size:1rem ;
+    font-weight: bold;
+}
+#sign-in a{
+    text-decoration: none ;
+    color:rgb(66, 138, 197) ; 
+}
+#sign-in a:hover{
+    
+    color:rgb(13, 52, 83) ; 
+}
+#sign-in .text-input {
+    margin-top: 1rem;   
+    background:#b2e4fc93 ; 
+    border-radius: 2px;
+    border:1px solid rgb(13, 52, 83) ; 
+    color:rgb(13, 52, 83) ; 
+    padding: 0.5rem 1rem ; 
+    line-height:1rem ; 
+    margin-left: 10%;
+}
+#sign-in .primary-btn {
+    width: 100% ;
+}
+.primary-btn {
+    padding: 0.7rem 1rem ; 
+    height: 2.7rem ; 
+    display:block ;
+    border:0 ; 
+    border-radius:5px ; 
+    font-weight: 500;
+    background:rgb(13, 52, 83) ; 
+    color:#fff ; 
+    text-decoration:none ; 
+    cursor: pointer ; 
+    text-align: center;
+    transition:all 0.5s ; 
+    margin-top: 1rem;
+    margin-left: 5%;
+    margin-right: 25%;
+    
+}
+.primary-btn:hover {
+    background: rgb(43, 112, 168) ;
+    
+}
+.copyright {
+    color:gray ; 
+    text-align:center ; 
+    font-size: 0.8rem;
+    margin-left: 70%;
+    margin-top: -6%;
+    
+}
+.copyright a {
+    text-decoration: none ; 
+    color: rgb(4, 142, 255) ;
+    margin-top: 20rem;
+}
+.signup{
+    color:rgb(61, 72, 97) ; 
+    text-align:center ; 
+    font-size: 1rem;
+    margin-left: 70%;
+    margin-top: -44%;
+}
+.signup a {
+    text-decoration: none ; 
+    color: rgb(4, 142, 255) ;
+    margin-top: 20rem;
+}
+.signup a:hover{
+    color: rgb(47, 204, 231);
+}
+.bordertransfer{
+    border: solid rgb(89, 124, 153) 1px;
+    position: absolute;
+    border-radius: 15px;
+    background: rgba(21, 159, 214, 0.534);
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 66%;
+    padding-left: 3%;  
+    padding-right: 3%;
+    padding-top: 40px;
+    display:flex ; 
+    justify-content: center; 
+}
+h3{
+    text-align: left;
+    
+    font-size:1.2rem ;
+    font-weight: bold;
+    color: rgb(4, 28, 46);
+}
+h4{ 
+    color: rgb(17, 87, 145);
+    font-size:1rem ;
+    font-weight: bold;
+}
+.n{ 
+    color: rgb(17, 87, 145);
+    font-size:1rem ;
+    font-weight: bold;
+}
+.bord_trans{
+    border: solid rgb(89, 124, 153) 1px;
+    position: absolute;
+    background: #b2e4fc93;
+    margin-left: 0%;
+    margin-top: 6%;
+    height: 32%;
+    width: 3%;
+    border:1px solid rgb(13, 52, 83) ;
+    line-height:1rem ; 
+    padding: 0.5rem 1rem ;
+    color:rgb(13, 52, 83) ; 
+}
+.borderlogin3{
+    border: solid rgb(89, 124, 153) 3px;
+    position: absolute;
+    border-radius: 100%;
+    background: rgb(13, 51, 83);
+    margin-top: 50%;
+    margin-left: 100%;
+    margin-right: 0%;
+    padding: 4%;
+    display:flex ; 
+    justify-content: center; 
+    color: white;
+}
+.borderrecycle{
+    border: solid rgb(89, 124, 153);
+    position: absolute;
+    border-radius: 100%;
+    background: rgb(89, 124, 153);
+    margin-top: -30.8%;
+    margin-left: 87%;
+    margin-right: 0%;
+    padding: 0.8%;
+    display:flex ; 
+    justify-content: center; 
+    color: white;
+}
+.borderbook{
+    border: solid rgb(89, 124, 153);
+    position: absolute;
+    border-radius: 100%;
+    background: rgb(13, 51, 83);
+    margin-top: -6.5%;
+    margin-left: 45%;
+    margin-right: 0%;
+    padding: 2%;
+    display:flex ; 
+    justify-content: center; 
+    color: white;
+}
